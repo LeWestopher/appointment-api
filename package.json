@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Peribar Drink Maker API",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "start": "node build/index"
+  },
   "keywords": [
     "drinks"
   ],
