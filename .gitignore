@@ -16,3 +16,4 @@ sh.exe.stackdump
 .DS_Store
 !build/.gitignore
 build
+.vagrant
