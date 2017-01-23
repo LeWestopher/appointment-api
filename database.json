@@ -1,0 +1,10 @@
+{
+  "dev": {
+    "driver": "mysql",
+    "user": "root",
+    "password": "*Development@2021",
+    "database": "appointments",
+    "host": "localhost",
+    "port": 3306
+  }
+}

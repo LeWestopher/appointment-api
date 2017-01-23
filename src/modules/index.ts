@@ -11,5 +11,13 @@ export function applyRoutes(): express.Router {
 
     modules.forEach(module => module.applyRoutes(router));
 
+    router.get('/', (req, res) => {
+        return res.json({
+            title: 'Appointment Tracker - Boone Software',
+            api: 'v1',
+            contributors: 'Wes King && Coty Abadie && Boone Software - 2016 All Rights Reserved'
+        });
+    })
+
     return router;
 }
