@@ -4,7 +4,7 @@ import UserRouter from './user/userRouter';
 
 export function applyRoutes(): express.Router {
     let router: express.Router = express.Router();
-
+ 
     const modules: Array<any> = [
         ExampleRouter, UserRouter
     ];
