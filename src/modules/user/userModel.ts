@@ -1,23 +1,9 @@
-import * as express from "express";
+import Model from '../../util/model';
+import _ from 'lodash';
+import db from '../../database/index';
 
-export default class UserModel {
-    static index() {
-        
-    }
-    
-    static read() {
-        
-    }
-
-    static add() {
-        
-    }
-
-    static update() {
-        
-    }
-
-    static remove() {
-        
+export default class UserModel extends Model {
+    static async all() {
+        return await db('users');
     }
 }
