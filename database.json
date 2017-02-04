@@ -1,8 +1,8 @@
 {
   "dev": {
     "driver": "mysql",
-    "user": "root",
-    "password": "*Development@2021",
+    "user": "appoint_local",
+    "password": "appoint_local",
     "database": "appointments",
     "host": "localhost",
     "port": 3306
